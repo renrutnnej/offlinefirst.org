@@ -1,0 +1,226 @@
+/*
+  text color: #293641
+  highlight color: #65D1C3
+*/
+html {
+  color: #293641;
+  font-family: 'FiraSans', sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  line-height: 1.618;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.container > header {
+  position: relative;
+  height: 170px;
+  margin: 100px 0 0;
+}
+.container > header ul {
+  float: left;
+  margin: 0 0 0 50px;
+  padding: 0;
+}
+.container > header li {
+  list-style: none;
+  float: left;
+}
+.container > header li a {
+  float: left;
+  margin: 0 10px;
+  padding: 0 20px;
+  height: 168px;
+  line-height: 156px;
+  border-bottom: 2px solid #FFF;
+
+  color: #65D1C3;
+  background: rgba(255,255,255,0.9);
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.container > header li a:hover,
+.container > header li a:focus {
+  border-bottom-color: #65D1C3;
+}
+.container > header li.active a {
+  color: #FFF;
+  background: #293641;
+  border-bottom-color: #293641;
+}
+.container > header h1 {
+  float: left;
+  width: 170px;
+  height: 170px;
+  margin: 0;
+
+  background: url(../images/offline-first-logo.png);
+  background-size: contain;
+}
+
+.container > header h1 a {
+  display: block;
+
+  text-indent: -9999px;
+}
+
+/* content */
+
+.content {
+  padding: 40px 0;
+  font-size: 24px;
+}
+
+.content a {
+  color: #65D1C3;
+  font-weight: 400;
+}
+
+.content a:focus,
+.content a:hover {
+  text-decoration: none;
+}
+
+.content article a {
+  display: block;
+  color: #293641;
+  text-decoration: none;
+  border-bottom: 1px solid #D6D6D6;
+  overflow: hidden;
+  padding: 40px 20px;
+  font-weight: 300;
+}
+.content article a:hover,
+.content article a:focus {
+  background: #65D1C3;
+  border-bottom-color: #65D1C3;
+}
+.content  article header {
+  float: left;
+  width: 170px;
+}
+.content  article h6 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 500;
+}
+.content  article header .year {
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.618;
+}
+.content  article header + div {
+  margin-left: 200px;
+}
+.content  article h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+}
+.content  article p {
+  margin: 0;
+}
+
+/* home */
+.home .content {
+  margin-left: 230px;
+}
+
+/* events */
+
+/* news */
+.newsletter {
+  padding: 0 20px;
+  border-bottom: 1px solid #D6D6D6;
+
+  background: #F3F3F3;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.newsletter p:first-child {
+  float: left;
+  line-height: 30px;
+  position: relative;
+  top: 2px;
+}
+.newsletter p:first-child + p {
+  float: right;
+}
+
+.newsletter label {
+  font-weight: 500;
+}
+.newsletter input {
+  font: inherit;
+  width: 240px;
+  margin: 0 10px;
+}
+
+.newsletter button {
+  border: none;
+  background: #65D1C3;
+}
+
+/* camp */
+body.camp {
+  background: url(../images/camp-background.png) 50% 0 no-repeat;
+}
+
+.camp .content {
+  padding-top: 100px;
+}
+.camp .content header {
+  float: left;
+  width: 170px;
+}
+.camp .content header h6 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 500;
+}
+.camp .content header .year {
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.618;
+}
+.camp .content header hr {
+  border: 0;
+  border-top: 2px solid #65D1C3;
+  width: 70px;
+  margin: 0 auto;
+}
+.camp .attend a {
+  display: block;
+  text-align: center;
+  background: #65D1C3;
+  color: #fff;
+  font-weight: 500;
+  line-height: 60px;
+  text-decoration: none;
+}
+.camp .attend a:focus,
+.camp .attend a:hover {
+  text-decoration: none;
+  background: #293641;
+}
+
+.camp .content header + div {
+  margin-left: 230px;
+}
+
+.camp .content h1 {
+  margin: 0;
+}
