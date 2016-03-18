@@ -14,7 +14,7 @@ html {
 }
 
 .container {
-  width: 750px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -41,7 +41,6 @@ html {
   border-bottom: 2px solid #FFF;
 
   color: #65D1C3;
-  background: rgba(255,255,255,0.9);
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
@@ -51,8 +50,7 @@ html {
   border-bottom-color: #65D1C3;
 }
 .container > header li.active a {
-  color: #FFF;
-  background: #293641;
+  color: #293641;
   border-bottom-color: #293641;
 }
 .container > header h1 {
@@ -61,14 +59,23 @@ html {
   height: 170px;
   margin: 0;
 
-  background: url(../images/offline-first-logo.png);
-  background-size: contain;
+  background: #293641;
 }
 
 .container > header h1 a {
   display: block;
+  height: 170px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1em;
+  text-decoration: none;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-  text-indent: -9999px;
+.container > header h1 a:hover{
+  color:#fff;
+  background-color: #65D1C3;
 }
 
 /* content */
@@ -92,7 +99,7 @@ html {
   display: block;
   color: #293641;
   text-decoration: none;
-  border-bottom: 1px solid #D6D6D6;
+  border-bottom: 1px solid #B0CEC9;
   overflow: hidden;
   padding: 40px 20px;
   font-weight: 300;
@@ -133,7 +140,7 @@ html {
 
 /* home */
 .home .content {
-  margin-left: 230px;
+  margin-left: 30.667%;
 }
 
 /* events */
@@ -141,9 +148,9 @@ html {
 /* news */
 .newsletter {
   padding: 0 20px;
-  border-bottom: 1px solid #D6D6D6;
+  border-bottom: 1px solid #B0CEC9;
 
-  background: #F3F3F3;
+  background: #E5F7F4;
   font-size: 18px;
   overflow: hidden;
 }
@@ -173,16 +180,13 @@ html {
 }
 
 /* camp */
-body.camp {
-  background: url(../images/camp-background.png) 50% 0 no-repeat;
-}
-
 .camp .content {
   padding-top: 100px;
 }
 .camp .content header {
   float: left;
-  width: 170px;
+  text-align: center;
+  width: 22.667%;
 }
 .camp .content header h6 {
   margin: 0;
@@ -218,9 +222,92 @@ body.camp {
 }
 
 .camp .content header + div {
-  margin-left: 230px;
+  margin-left: 30.667%;
 }
 
 .camp .content h1 {
   margin: 0;
+}
+
+.camp img.img--right{
+  text-align: right;
+  width: 100%;
+}
+
+
+/* Media Queries  */
+
+@media(max-width: 760px) {
+
+  .container > header{
+    margin-top: 0;
+  }
+
+  .container > header h1 {
+    float: none;
+    margin: auto;
+  }
+
+  .container > header ul {
+    clear: left;
+    margin-left: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .container > header li {
+    width: 33.333%;
+  }
+
+  .container > header li a {
+    height: 74px;
+    line-height: 74px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .home .content {
+    clear:left;
+    margin-left: 0;
+    padding: 0px 20px 20px 20px;
+  }
+
+  /*Camp*/
+  .camp .content header {
+    background: #E5F7F4;
+    float: none;
+    margin-top: 6px;
+    width: 100%;
+    padding-bottom: 6px;
+    padding-top: 24px;
+  }
+
+  .camp .content header h6, .camp .content header p.location, .camp .content header p.price {
+    margin: 0;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    width: 30%;
+    vertical-align: middle;
+  }
+
+  .camp .content header h6 {}
+
+  .camp .content header p.attend{
+    margin: 24px auto 24px auto;
+    width: 80%;
+  }
+
+  .camp .content header hr {
+    display: none;
+  }
+
+  .camp .content header + div {
+    clear:left;
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 0px 20px 20px 20px;
+  }
 }
