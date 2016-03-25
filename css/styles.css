@@ -194,6 +194,12 @@ html {
   line-height: 1;
   font-weight: 500;
 }
+.camp .content header .day{
+  display: block;
+}
+.camp .content header .day sup{
+
+}
 .camp .content header .year {
   display: block;
   font-weight: 300;
@@ -227,6 +233,20 @@ html {
 
 .camp .content h1 {
   margin: 0;
+}
+
+.camp .content h2 {
+  line-height: 48px;
+  font-weight: 100;
+}
+
+.camp .content h3 {
+  margin-top: 42px;
+  margin-bottom: 0px;
+}
+
+.camp .content div.main p {
+  margin-top: 12px;
 }
 
 .camp img.img--right{
