@@ -1,6 +1,6 @@
 /*
   text color: #293641
-  highlight color: #65D1C3
+  highlight color: #5EC1B4
 */
 html {
   color: #293641;
@@ -40,14 +40,14 @@ html {
   line-height: 156px;
   border-bottom: 2px solid #FFF;
 
-  color: #65D1C3;
+  color: #5EC1B4;
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
 }
 .container > header li a:hover,
 .container > header li a:focus {
-  border-bottom-color: #65D1C3;
+  border-bottom-color: #5EC1B4;
 }
 .container > header li.active a {
   color: #293641;
@@ -75,7 +75,7 @@ html {
 
 .container > header h1 a:hover{
   color:#fff;
-  background-color: #65D1C3;
+  background-color: #5EC1B4;
 }
 
 /* content */
@@ -86,7 +86,7 @@ html {
 }
 
 .content a {
-  color: #65D1C3;
+  color: #5EC1B4;
   font-weight: 400;
 }
 
@@ -106,8 +106,8 @@ html {
 }
 .content article a:hover,
 .content article a:focus {
-  background: #65D1C3;
-  border-bottom-color: #65D1C3;
+  background: #5EC1B4;
+  border-bottom-color: #5EC1B4;
 }
 .content  article header {
   float: left;
@@ -176,7 +176,7 @@ html {
 
 .newsletter button {
   border: none;
-  background: #65D1C3;
+  background: #5EC1B4;
 }
 
 /* camp */
@@ -208,14 +208,14 @@ html {
 }
 .camp .content header hr {
   border: 0;
-  border-top: 2px solid #65D1C3;
+  border-top: 2px solid #5EC1B4;
   width: 70px;
   margin: 0 auto;
 }
 .camp .attend a {
   display: block;
   text-align: center;
-  background: #65D1C3;
+  background: #5EC1B4;
   color: #fff;
   font-weight: 500;
   line-height: 60px;
