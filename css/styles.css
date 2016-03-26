@@ -104,10 +104,9 @@ html {
   padding: 40px 20px;
   font-weight: 300;
 }
-.content article a:hover,
-.content article a:focus {
-  background: #5EC1B4;
-  border-bottom-color: #5EC1B4;
+.content article a:hover div,
+.content article a:focus div {
+  color: #5EC1B4;
 }
 .content  article header {
   float: left;
